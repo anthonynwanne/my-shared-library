@@ -16,7 +16,7 @@ def call(String repoUrl){
            }
            stage("to-test-maven") {
                steps {
-                   sh 'df -g'
+                   sh 'ls -a'
                }
            }
        }
